@@ -11,6 +11,7 @@
 .right-nav > ul {
   display: flex;
   align-items: center;
+  margin: 1px;
 }
 
 .left-nav {
@@ -39,7 +40,7 @@
     > li {
       font-size: 9px;
       margin-left: 1px;
-     
+      box-sizing: border-box;
       position: relative;
     }
 
@@ -49,7 +50,7 @@
   }
   
   i {
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 5px;
   }
 }

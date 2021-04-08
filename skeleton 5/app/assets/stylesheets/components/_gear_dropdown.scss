@@ -2,12 +2,12 @@
 #gear-dropdown {
         position: absolute;
         display: none;
-        top: 20px;
+        top: 18px;
         right: 0px;
         width: 150px;
         background-color: white;
         z-index: 1;
-        padding: 1px;
+        padding: 0px;
         border: 1px solid $light-gray;
         box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.5);
         font-family: sans-serif;
@@ -23,6 +23,10 @@
 
     .editions  {
         border-bottom: 1px solid $light-gray;
+
+        li:hover {
+            background-color: $light-gray;
+        }
     }
     
 }
@@ -34,6 +38,7 @@
 
 .dropdown-subtitle {
     font-weight: bold;
+    display: block;
 }
 
 .help {
