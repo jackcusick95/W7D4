@@ -1,0 +1,29 @@
+
+.section-nav {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+
+    ul {
+        display: flex;
+        padding: 5px;
+    }
+
+    li {
+        margin: 5px;
+
+    }
+
+    li:hover {
+        background-color: $light-gray;
+    }
+
+    li:last-child {
+        text-decoration: underline; 
+    }
+
+}
+
+
