@@ -20,8 +20,9 @@
         background-color: $light-gray;
     }
 
-    li:last-child {
-        text-decoration: underline; 
+    li:last-child:hover {
+        text-decoration: underline;
+        background-color: initial; 
     }
 
 }
