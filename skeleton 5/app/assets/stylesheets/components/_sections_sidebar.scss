@@ -1,0 +1,35 @@
+
+
+
+
+// .sections-sidebar-btn {
+//     opacity: 0;
+// }
+
+// #sections-sidebar-btn.hover {
+//     opacity: 1;
+//     display: flex;
+// }
+
+.sub-dropdown {
+    position: relative;
+}
+
+.sub-dropdown > ul {
+    display: none;
+    position: absolute;
+}
+
+// .section-nav {
+//     display: none;
+//     position: absolute;
+//     opacity: 1;
+// }
+
+// .section-nav.hover {
+//     display: flex;
+// }
+
+.sub-dropdown:hover > ul {
+    display: block;
+}

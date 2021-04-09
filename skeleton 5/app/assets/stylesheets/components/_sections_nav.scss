@@ -25,6 +25,18 @@
         background-color: initial; 
     }
 
+    // @media all and (max-width: 1000px) {
+    // .section-nav {
+    // width: 100%;
+    // display: block;
+    // }
+
 }
 
+   @media (max-width: 600px) {
+    .section-nav {
+    width: 100%;
+    display: none;
+    }
 
+   }

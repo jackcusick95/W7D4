@@ -80,3 +80,10 @@
 		color: green;
 	}
 }
+
+   @media (max-width: 600px) {
+    .language-nav {
+    width: 100%;
+    display: none;
+    }
+   }
