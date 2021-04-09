@@ -6,10 +6,10 @@
 //     opacity: 0;
 // }
 
-// #sections-sidebar-btn.hover {
-//     opacity: 1;
-//     display: flex;
-// }
+#sections-sidebar-btn:hover .section-nav {
+    display: flex;
+
+}
 
 .sub-dropdown {
     position: relative;
@@ -20,11 +20,10 @@
     position: absolute;
 }
 
-// .section-nav {
-//     display: none;
-//     position: absolute;
-//     opacity: 1;
-// }
+.section-nav {
+    display: none;
+
+}
 
 // .section-nav.hover {
 //     display: flex;
