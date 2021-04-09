@@ -14,12 +14,13 @@
         color: $dark-gray;
         margin: 0px;
         text-align: left;
+        font-size: 10px;
     
 
     li {
         position: relative;
-        padding: 4px;
-        text-decoration: capitalize;
+        padding: 6px;
+        font-size: 13px;
     }
 
     .editions  {
@@ -27,6 +28,7 @@
 
         li:hover {
             background-color: $light-gray;
+            color: black;
         }
     }
     
@@ -44,6 +46,11 @@
 
 .help {
     color: $blue;
-    text-decoration: underline;
     border-top: $gray;
+
+    li:hover {
+        text-decoration: underline;
+    }
 }
+
+

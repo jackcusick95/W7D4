@@ -66,21 +66,37 @@ article {
 .kicker {
 	text-transform: uppercase;
 	font-size: 10px;
+    
 }
 
 .opinion {
-	background-color: cornflowerblue;
-	margin-top: 10px;
-	padding-right: 20px;
+	// background-color: cornflowerblue;
 	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: 5px 1fr 60%;
-	// grid-template-rows: ;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: 25px 1fr 60%;
+    font-size: 10px;
+    column-gap: 20px;
+    
+	.col-1-2, {
+		font-size: 12px;
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		li {
+			font-size: 8px;
+		}
+	}
 
 
 
 	.col-1-2:first-child {
-		padding: 20px;
+		// padding-right: 20px;
+        padding: 200px;
+        background-color: red;
+        margin: 1000px;
+        // grid-column: 1/3;
 	}
 	
 	a:first-child{
@@ -89,14 +105,26 @@ article {
 	}
 
 	.opinion-sign-up {
-
 		grid-column: 1/3;
 		background-color: burlywood;
 		margin-bottom: 20px;
 
+		a:first-child {
+			
+		}
+
+
+
+		.input-wrapper {
+			
+			
+
+		}
+
 		center{
 			margin-bottom: 20px;
 		}
+	
 	}
 }
 
